@@ -5,30 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#182b29">
 <title>CIPM Study Room · Day 01</title>
-<link rel="stylesheet" href="style.css">
-<script src="lesson.js" defer></script>
+<link rel="stylesheet" href="style.css?v=2">
+<script src="lesson.js?v=2" defer></script>
 </head>
 <body>
-<header class="mast"><div class="shell mast-inner"><a href="./" class="brand">CIPM <span>Study Room</span></a><span class="edition">CHAPTER 01 / 10</span></div></header>
+<header class="mast"><div class="shell mast-inner"><a href="#day-1" class="brand">CIPM <span>Study Room</span></a><nav class="days" aria-label="Study days"><a href="#day-1" data-day="1">Day 1</a><a href="#day-2" data-day="2">Day 2</a></nav></div></header>
 <div class="shell">
   <header class="intro">
-    <p class="eyebrow">DAY 01 <span></span> 30 MINUTES</p>
-    <h1>From compliance work<br class="desktop"> to a privacy program</h1>
-    <p class="intro-note">You know how to deliver privacy work. Today, you’ll learn how a program manager makes that work repeatable, verifiable, and shared across the business.</p>
+    <p class="eyebrow" id="day-kicker"></p>
+    <h1 id="day-title">CIPM Study Room</h1>
+    <p class="intro-note" id="day-note"></p>
   </header>
   <main class="layout">
     <aside class="rail" aria-label="Lesson outline">
       <div class="rail-top"><span>LESSON OUTLINE</span><span id="counter">01 / 05</span></div>
       <progress id="progress" value="1" max="5" aria-label="Current lesson step"></progress>
       <nav id="outline" aria-label="Lesson steps"></nav>
-      <p class="rail-note">Today’s reading is built into the lesson. No need to open the textbook.</p>
+      <p class="rail-note">The lesson covers the textbook. Open your practice PDF only for the original exam wording. Your answers stay in this tab.</p>
     </aside>
     <section class="lesson" aria-labelledby="lesson-title">
       <div id="panel"></div>
       <div class="controls" id="controls"></div>
     </section>
   </main>
-  <footer><span>CHAPTER 01 · INTRODUCTION TO PRIVACY PROGRAM MANAGEMENT</span><span>Study materials supplied by you</span></footer>
+  <footer><span id="chapter-label"></span><span>No account or shared answer history</span></footer>
 </div>
 </body>
 </html>
